@@ -1,0 +1,10 @@
+Helpful Dictionary class which provides a safer interface than using
+native JS objects directly.  The keys are mangled to prevent collisions 
+with javascript object methods.
+
+See http://www.devthought.com/2012/01/18/an-object-is-not-a-hash/ for
+why this is useful.
+
+There's plenty here which may be suboptimal or which could easily be
+extended to earlier browsers: all pull requests welcomed!
+
